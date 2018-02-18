@@ -1,0 +1,8 @@
+__d(function (global, require, module, exports, _dependencyMap) {
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  var FETCHING_PEOPLE = exports.FETCHING_PEOPLE = 'FETCHING_PEOPLE';
+  var FETCHING_PEOPLE_SUCCESS = exports.FETCHING_PEOPLE_SUCCESS = 'FETCHING_PEOPLE_SUCCESS';
+  var FETCHING_PEOPLE_FAILURE = exports.FETCHING_PEOPLE_FAILURE = 'FETCHING_PEOPLE_FAILURE';
+});

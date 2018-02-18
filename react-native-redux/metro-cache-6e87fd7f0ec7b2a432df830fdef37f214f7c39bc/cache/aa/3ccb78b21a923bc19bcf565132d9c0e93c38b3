@@ -1,0 +1,47 @@
+__d(function (global, require, module, exports, _dependencyMap) {
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  var _jsxFileName = "/Users/nishantdande/Desktop/react-native-redux/App.js";
+
+  var _FlatListDemo = require(_dependencyMap[0], "./app/components/listview/FlatListDemo");
+
+  var _FlatListDemo2 = _interopRequireDefault(_FlatListDemo);
+
+  var _react = require(_dependencyMap[1], "react");
+
+  var _react2 = _interopRequireDefault(_react);
+
+  var _reactNative = require(_dependencyMap[2], "react-native");
+
+  var _reactRedux = require(_dependencyMap[3], "react-redux");
+
+  var _configureStore = require(_dependencyMap[4], "./app/config/configureStore");
+
+  var _configureStore2 = _interopRequireDefault(_configureStore);
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+  var store = (0, _configureStore2.default)();
+
+  var ReduxApp = function ReduxApp() {
+    return _react2.default.createElement(
+      _reactRedux.Provider,
+      {
+        store: store,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        }
+      },
+      _react2.default.createElement(_FlatListDemo2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        }
+      })
+    );
+  };
+
+  exports.default = ReduxApp;
+});
